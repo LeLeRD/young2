@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Tangerine&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    width: 100%;
+    background-color: gold;
+    height: 150px;
+}
+
+main {
+    width: 100%;
+    background-color: darkorchid;
+    height: 400px;
+    display: flex;
+
+}
+
+footer {
+    width: 100%;
+    background-color: goldenrod;
+    height: 300px;
+}
+
+header div h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Tangerine', cursive;
+}
+main .ingredientes-conteudo{
+    background-color: chartreuse;
+    width: 30%;
+}
+
+main.modo-preparo-conteudo{
+   background-color: dimgray;
+   width: 70%;
+}
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    font-style: italic;
+    
+
+}
+
