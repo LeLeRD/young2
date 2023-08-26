@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100;
+    display: flex;
+}
+section{
+    background-color: darkgray;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+section div {
+    background-color: antiquewhite;
+    height: 80px;
+    width: 50%;
+    margin: 50px;
+    margin: 20px;
+
+
+}
+section div img{
+background-color: rgb(182, 230, 230);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-position: center;
+    border-radius: 50%;
+}
+
+section div p {
+    font-size: 25%;
+}
+
+section div button {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+
+
+}
+
