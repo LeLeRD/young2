@@ -1,6 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+
+ :root{
+    --main_color: black;
+    --second_color:white;
+    --thrid_color:gray;
+
+ }
+
+
 *{
     padding: 0;
     margin: 0;
@@ -9,3 +18,59 @@
 }
 
 
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1000vw;
+    height: 100vh;
+    font-size: 2.3rem;
+
+}
+
+.main_bg{
+    background-color: var(--main_color);
+
+}
+
+.second_bg{
+    background-color: var(--second_color);
+
+}
+
+.intro-conteudo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-content{
+    max-width: 70rem;margin: 0,auto;
+    padding:8rem var(--gap) ;
+
+}
+
+
+.img-content{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.intro-content{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    padding: 0 var(--gap);
+    justify-content: center;
+    flex-flow: column wrap;
+
+}
+
+.intro-content p {
+    font-size: 1.4rem;
+}
