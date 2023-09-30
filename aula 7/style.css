@@ -74,3 +74,40 @@ body{
 .intro-content p {
     font-size: 1.4rem;
 }
+
+.principal-conteudo{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-do-main{
+    background-color: blueviolet;
+    width: 100%;
+
+}
+
+.galeria-fotos div img{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.galeria-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteudo-da-galeria{
+    width: 100%;
+}
+
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
